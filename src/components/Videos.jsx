@@ -1,9 +1,9 @@
 import React from "react";
 import { Stack, Box } from "@mui/material";
 
-import { ChannelCard} from "./ChannelCard";
-import {Loader} from "./Loader"
-import {VideoCard} from "./VideoCard"
+import ChannelCard from "./ChannelCard";
+import Loader from "./Loader"
+import VideoCard from "./VideoCard"
 
 const Videos = ({ videos, direction }) => {
   if(!videos?.length) return <Loader />;
