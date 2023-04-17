@@ -5,7 +5,7 @@ import { Box } from '@mui/material';
 import ChannelDetail  from './components/ChannelDetail';
 import VideoDetail from "./components/VideoDetail"
 import SearchFeed from "./components/SearchFeed"
-import Navbar from "./components/Navbar"
+import NavBar from "./components/NavBar"
 import Feed from "./components/Feed"
 
 // const App = () => (
@@ -33,7 +33,7 @@ import Feed from "./components/Feed"
 const Layout = () => {
   return (
     <div className="w-50 mx-auto">
-      <Navbar />
+      <NavBar />
       <Outlet></Outlet>
     </div>
   );
@@ -43,7 +43,7 @@ const router = createBrowserRouter([
   {path:"/",
   element:<Layout />,
   children:[
-//}
+
       {
         path: "/",
         element: <Feed />,

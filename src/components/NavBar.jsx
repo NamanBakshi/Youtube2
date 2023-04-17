@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import {logo} from "../utils/constants";
 import SearchBar  from "./SearchBar";
 
-const Navbar = () =>{return (
+const NavBar = () =>{return (
   <Stack direction="row" alignItems="center" p={2} sx={{ position:  "sticky", background: '#000', top: 0, justifyContent: "space-between" }}>
     <Link to="/" >
       <img src={logo} alt="logo" height={50} width={80} />
@@ -14,4 +14,4 @@ const Navbar = () =>{return (
   </Stack>
 )};
 
-export default Navbar;
+export default NavBar;
