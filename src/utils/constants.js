@@ -35,6 +35,8 @@ export const categories = [
   // { name: 'Crypto', icon: <DeveloperModeIcon />, },
 ];
 
+export const logo="https://i.ibb.co/s9Qys2j/logo.png"
+
 export const demoThumbnailUrl = 'https://th.bing.com/th/id/R.9a3e7713e6910adc97dc1fa0973714d0?rik=UCUc4kIWfjQtcA&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_229205.png&ehk=7dhQ9dv%2fmEMMsytjWp%2fft6JMdRXTnlvo3r9MLQzZJOQ%3d&risl=&pid=ImgRaw&r=0';
 export const demoChannelUrl = '/channel/UCmXmlB4-HJytD7wek0Uo97A';
 export const demoVideoUrl = '/video/xFFs9UgOAlE' //zukerbeger video link

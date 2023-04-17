@@ -23,7 +23,8 @@ const VideoDetail = () => {
 
   if(!videoDetail?.snippet) return <Loader />;
 
-  const { snippet: { title, channelId, channelTitle }, statistics: { viewCount, likeCount } } = videoDetail;
+  const { snippet: { title, channelId, channelTitle }, 
+          statistics: { viewCount, likeCount } } = videoDetail;
 
   return (
     <Box minHeight="95vh">

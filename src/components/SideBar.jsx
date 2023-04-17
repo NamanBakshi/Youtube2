@@ -1,9 +1,8 @@
 import React from "react";
 import { Stack } from "@mui/material";
-
 import { categories } from "../utils/constants";
 
-const Categories = ({ selectedCategory, setSelectedCategory }) => (
+const Sidebar = ({ selectedCategory, setSelectedCategory }) => {return(
   <Stack
     direction="row"
     sx={{
@@ -31,6 +30,6 @@ const Categories = ({ selectedCategory, setSelectedCategory }) => (
       </button>
     ))}
   </Stack>
-);
+)};
 
-export default Categories;
+export default Sidebar;
